@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "tables": {
+    "facts": {
+      "file": "boundary-facts.jsonl",
+      "sha256": "56d25818ee66123b8efdee9a9aae20d40b9a7b42d25c014aec45875756e59d8e",
+      "bytes": 278,
+      "rows": 4,
+      "fields": [
+        "id",
+        "tenant",
+        "day",
+        "latency",
+        "source"
+      ]
+    },
+    "changes": {
+      "file": "boundary-changes.jsonl",
+      "sha256": "3560d562bf542d610d37f8b5b88cfd77271d15773d8232ff65e31b91c4057ac6",
+      "bytes": 171,
+      "rows": 1,
+      "fields": [
+        "id",
+        "batch",
+        "row",
+        "old",
+        "new"
+      ]
+    },
+    "queries": {
+      "file": "boundary-queries.jsonl",
+      "sha256": "61c64762f31f3b76e7366a51040a99226263ff36de6f462d67ab61f34927f66b",
+      "bytes": 76,
+      "rows": 1,
+      "fields": [
+        "id",
+        "tenant",
+        "day",
+        "p_numerator",
+        "p_denominator"
+      ]
+    }
+  }
+}

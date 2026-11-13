@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "tables": {
+    "facts": {
+      "file": "normal-facts.jsonl",
+      "sha256": "45ceadf06772082dc7a8bb6d062bce57e7e4356e0d0345494281769e4830c831",
+      "bytes": 278,
+      "rows": 4,
+      "fields": [
+        "id",
+        "tenant",
+        "day",
+        "latency",
+        "source"
+      ]
+    },
+    "changes": {
+      "file": "normal-changes.jsonl",
+      "sha256": "ae51dcf16ab37c484d0b6132b5ba28b64ec30c3adf135f1b41db2a7cd6c97d46",
+      "bytes": 171,
+      "rows": 1,
+      "fields": [
+        "id",
+        "batch",
+        "row",
+        "old",
+        "new"
+      ]
+    },
+    "queries": {
+      "file": "normal-queries.jsonl",
+      "sha256": "61c64762f31f3b76e7366a51040a99226263ff36de6f462d67ab61f34927f66b",
+      "bytes": 76,
+      "rows": 1,
+      "fields": [
+        "id",
+        "tenant",
+        "day",
+        "p_numerator",
+        "p_denominator"
+      ]
+    }
+  }
+}

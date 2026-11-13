@@ -1,0 +1,4 @@
+{"day": 1, "id": "r1", "latency": 10, "source": "s1", "tenant": "A"}
+{"day": 1, "id": "r2", "latency": 10, "source": "s1", "tenant": "A"}
+{"day": 1, "id": "r3", "latency": 30, "source": "s2", "tenant": "A"}
+{"day": 1, "id": "r4", "latency": null, "source": "s2", "tenant": "B"}
